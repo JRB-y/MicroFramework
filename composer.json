@@ -1,0 +1,15 @@
+{
+    "name": "jrb/micro",
+    "description": "Micro Framework.",
+    "type": "library",
+    "authors": [{
+        "name": "jrb",
+        "email": "jrb.youssef@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Jrb\\": "src/"
+        }
+    },
+    "require": {}
+}
