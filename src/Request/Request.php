@@ -2,7 +2,7 @@
 
 namespace Jrb\Request;
 
-class RequestHandler
+class Request
 {
 
   public $request;
