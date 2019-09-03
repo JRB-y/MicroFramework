@@ -1,5 +1,8 @@
 <?php
 
+use Jrb\Router\Router;
+use Jrb\Request\Request;
+
 /**
  * Bootstrap the Application.
  * 
@@ -10,10 +13,8 @@
  * Dispatch the router.
  * 
  */
-require_once __DIR__ . '/vendor/autoload.php';
+require __DIR__ . '/../vendor/autoload.php';
 
-use Jrb\Router\Router;
-use Jrb\Request\Request;
 
 // new request (Available in all the Application)
 $request = new Request();
